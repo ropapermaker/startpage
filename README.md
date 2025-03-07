@@ -19,3 +19,8 @@
 1. Replace file location of index.html in newTabURL variable
 1. Copy mozilla.cfg to C:\Program Files\Mozilla Firefox
 1. Copy local-settings.js to C:\Program Files\Mozilla Firefox\defaults\pref
+
+## Firefox >= 136
+The new Firefox versions breaks the current config: [Change new tab page to local file #1190](https://github.com/mozilla/policy-templates/discussions/1190)
+
+`mozilla.cfg` is updated, but might break in the future.
